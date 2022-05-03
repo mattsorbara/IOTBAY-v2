@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300;600&display=swap');
+
+
+html {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(192deg, #4e85bb 0%, #8539cc 100%);
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+}
+
+input  {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;   
+    height: 100%;
+}
+
+.homeContents {
+    font-family: "Poppins", sans-serif;
+    background-color: #eff7ed;
+    padding: 40px;
+    width: 25%;
+    border-radius: 20px;
+    align-self: center;
+}
+
+.homeForm {
+    display: inline-grid;
+    width: 100%;
+}
+
+.submit {
+    background-color: #4154b4;
+    border: 0;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    border-radius: 5px;
+    width: 40%;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.submit:hover {
+    background-color: #202d6c;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.buttonContainer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+
